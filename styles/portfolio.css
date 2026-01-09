@@ -32,8 +32,22 @@
     cursor: pointer;
 }
 
+.section-heading {
+    max-width:827px; ;
+    text-align: center;
 
-
+    
+}
+.section-heading h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 
   /* main style */
  header {
@@ -48,14 +62,14 @@
 
 
 nav {
-    width: 95%;
-    max-width: 1528px;
-    /* border: 1px solid red; */
-    margin-left: 47px;
-    display: flex;
-    justify-content: space-between;
+  width: 95%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
- }
 nav .menu {
     display: flex;
     list-style: none;
@@ -68,12 +82,14 @@ nav .menu a {
     color: #474747;
 }
 #banner {
-    /* border: 1px solid blue; */
-    margin: 47px 38px 230px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 95%;
+  max-width: 1400px;
+  margin: 60px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 #banner .banner-content{
     max-width: 585px;
 }
@@ -97,7 +113,34 @@ nav .menu a {
     line-height: 30PX;
 }
 #banner .banner-image img {
-    max-width: 585px;
+    max-width: 350px;
     vertical-align: middle;
     
+}
+#about {
+    padding-top: 130px;
+}
+
+#about .about-container {
+    width: 95%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.about-info .info-card p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+
+}
+.about-info .info-card h4{
+    font-size: 18px;
+    color: #181818;
 }
